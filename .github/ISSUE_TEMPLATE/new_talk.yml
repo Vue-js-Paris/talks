@@ -21,13 +21,13 @@ body:
     id: duration
     attributes:
       label: Durée du talk
+      options:
+        - 5 minutes
+        - 10 minutes
+        - 20 minutes
+        - 30 minutes
     validations:
       required: true
-    options:
-      - 5 minutes
-      - 10 minutes
-      - 20 minutes
-      - 30 minutes
   - type: input
     id: speaker_name
     attributes:
