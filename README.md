@@ -1,2 +1,1 @@
-# talks
-Propositions de talks
+![Vue.js Paris](./vuejs-paris-header.png)
