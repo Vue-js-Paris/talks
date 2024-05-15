@@ -1,0 +1,52 @@
+name: '🗣️ Talk Proposal'
+description: Propose a talk for the next meetup
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your interest in the project and for taking the time to propose a talk for the next meetup!
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: 'Describe your talk in a few sentences.'
+    validations:
+      required: true
+  - type: dropdown
+    id: duration
+    attributes:
+      label: Talk Duration
+      options:
+        - 5 minutes
+        - 10 minutes
+        - 20 minutes
+        - 30 minutes
+    validations:
+      required: true
+  - type: input
+    id: speaker_name
+    attributes:
+      label: Your First and Last Name
+    validations:
+      required: true
+  - type: input
+    id: speaker_email
+    attributes:
+      label: Your Email
+    validations:
+      required: true
+  - type: input
+    id: speaker_one_liner
+    attributes:
+      description: 'A sentence to introduce yourself (e.g., Frontend Developer at Acme Corp)'
+      label: One-line Introduction
+  - type: input
+    id: twitter
+    attributes:
+      description: 'Your Twitter handle (e.g., https://x.com/posva)'
+      label: Twitter
+  - type: input
+    id: github
+    attributes:
+      description: 'Your GitHub handle (e.g., @posva)'
+      label: GitHub
