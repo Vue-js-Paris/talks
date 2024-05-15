@@ -5,16 +5,11 @@ body:
     attributes:
       value: |
         Merci de votre intérêt pour le projet et de prendre le temps de proposer un talk pour le prochain meetup!
-  - type: input
-    id: title
-    attributes:
-      label: Titre du talk
-    validations:
-      required: true
   - type: textarea
     id: description
     attributes:
       label: Description
+      description: 'Décrivez votre talk en quelques phrases.'
     validations:
       required: true
   - type: dropdown
@@ -48,10 +43,10 @@ body:
   - type: input
     id: twitter
     attributes:
-      description: 'Ton compte Twitter (ex: @acme)'
+      description: 'Ton compte Twitter (ex: https://x.com/posva)'
       label: Twitter
   - type: input
     id: github
     attributes:
-      description: 'Ton compte GitHub (ex: acme)'
+      description: 'Ton compte GitHub (ex: @posva)'
       label: GitHub
