@@ -33,7 +33,7 @@ body:
     id: speaker_email
     attributes:
       label: Your Email
-      description: 'Optional - only if you want us to contact you'
+      description: 'Optional - if you want us to reach out to you via email instead of GitHub'
     validations:
       required: false
   - type: input
