@@ -26,15 +26,16 @@ body:
   - type: input
     id: speaker_name
     attributes:
-      label: Ton prénom et nom
+      label: Nom d'affichage
     validations:
       required: true
   - type: input
     id: speaker_email
     attributes:
       label: Ton email
+      description: 'Optionnel - seulement si tu veux que nous te contactions'
     validations:
-      required: true
+      required: false
   - type: input
     id: speaker_one_liner
     attributes:
